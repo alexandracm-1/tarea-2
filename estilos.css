@@ -1,0 +1,18 @@
+body {text-align: center;}
+header {background-color: lightblue;}
+img {width: 200px;}
+p span {color: white;}
+h1 {color: blue;}
+ul {list-style-type: none;
+    display: inline-block; 
+    background-color: yellow; 
+    border: 3px solid black; 
+    border-radius: 50%; 
+    width: 200px; 
+    padding: 20px}
+ul li:first-child, ul li:first-child a {color: red;}
+ul li:nth-child(2), ul li:nth-child(2) a {color: green;}
+ul li:nth-child(3), ul li:nth-child(3) a {color: blue;}
+ul li:last-child, ul li:last-child a {color: green;}
+* {font-size: medium; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+footer {background-color: lightblue;}
